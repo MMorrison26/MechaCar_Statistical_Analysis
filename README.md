@@ -15,7 +15,7 @@ If you take a look at the overall summary and lot-by-lot summary tables below, y
 ![image](https://user-images.githubusercontent.com/87578449/143689642-dfc2da64-f3b8-4937-9944-159fa5883539.png) <br/>
 
 ## *T-Tests on Suspension Coils*
-When first looking at the t-test for the overall summary, the p-value comes out to exactly 1, which means we cannot reject the null hypothesis, meaning that the means are statisically similar. The same is true when specifically comparing Lot whose p-value also comes out to 1. Lot 2 still has a p-value that is greater than the assumed significance level of 0.05, although it is less than 1 (0.6072 to be exact). Lot 3, however, is a different story altogether. Its p-value is 0.04168, which is less than our significance level, which means we can reject the null hypothesis; the mean for Lot 3 is statistically *different*.
+When first looking at the t-test for the overall summary, the p-value comes out to exactly 1, which means we cannot reject the null hypothesis, meaning that the means are statisically similar. The same is true when specifically comparing Lot 1 whose p-value also comes out to 1. Lot 2 still has a p-value that is greater than the assumed significance level of 0.05, although it is less than 1 (0.6072 to be exact). Lot 3, however, is a different story altogether. Its p-value is 0.04168, which is less than our significance level, which means we can reject the null hypothesis; the mean for Lot 3 is statistically *different*.
 
 ![image](https://user-images.githubusercontent.com/87578449/143690328-ee0e8c6a-e50a-4e6e-860a-ebdd37a2f8ba.png)
 
