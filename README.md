@@ -4,7 +4,7 @@
 1) The variables/coefficients that have a non-random amount of variance to the mpg values in the dataset include: the ground_clearance (-0.463776) and the AWD (0.406308). The vehicle_weight (-0.000170) and spoiler_angle (-0.009066) are too close to zero to have any significant (non-random) affect on the mpg.
 2) The p-value here is 6.712e-11, which is much smaller the the assumed significance level of 0.05%. This means we can reject the null hypothesis, which means that the stlope of our linear model is not zero.
 3) Given that the r-squared value for this linear model is 0.7119, this model predicts MechaCar prototypes pretty effectively, meaning that roughly 71% of the variability of our dependent variable is explained using this linear model. <br/>
-<br/>
+
 ![image](https://user-images.githubusercontent.com/87578449/143689841-082a0970-27b8-4124-bfad-3281898fcda6.png)
 
 
