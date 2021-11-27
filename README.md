@@ -18,3 +18,10 @@ If you take a look at the overall summary and lot-by-lot summary tables below, y
 When first looking at the t-test for the overall summary, the p-value comes out to exactly 1, which means we cannot reject the null hypothesis, meaning that the means are statisically similar. The same is true when specifically comparing Lot whose p-value also comes out to 1. Lot 2 still has a p-value that is greater than the assumed significance level of 0.05, although it is less than 1 (0.6072 to be exact). Lot 3, however, is a different story altogether. Its p-value is 0.04168, which is less than our significance level, which means we can reject the null hypothesis; the mean for Lot 3 is statistically *different*.
 
 ![image](https://user-images.githubusercontent.com/87578449/143690328-ee0e8c6a-e50a-4e6e-860a-ebdd37a2f8ba.png)
+
+## *Study Design: MechaCar vs. Competition*
+As we head into the holiday season, it's a very popular time for consumers to buy extravagant gifts for their family members - oftentimes they go so far as to buy a brand new car for their loved ones. In order to identify if MechaCar outperforms their competition, we need to look at the top 2 factors consumers care most about: cost and reliability (ie: maintenance cost). With gas prices currently rising, we're going to add fuel efficiency as well. The null hypothesis here would be that there is no statistical difference in any of these 3 factors when comparing against other manufacturers, which means the alternative hypothesis would be there is *is* statistical difference in those 3 factors when comparing against other manufacturers. 
+
+Because we're working with 2 samples (MechaCar and another manufacturer), we'll want to do a two-sample t-test with continuous data for our 3 metrics. We already have miles per gallon for MechaCar, but we'll need to gather pricing details and average maintenance cost per year over time. We'll need this data not only for MechaCar but for the other manufacturer(s). 
+
+With customers eager to get into the holiday spirit, may the odds be ever in MechaCar's favor.
