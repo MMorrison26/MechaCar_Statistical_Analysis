@@ -2,7 +2,7 @@
 
 ## *Linear Regression to Predict MPG*
 1) The variables/coefficients that have a non-random amount of variance to the mpg values in the dataset include: the ground_clearance (-0.463776) and the AWD (0.406308). The vehicle_weight (-0.000170) and spoiler_angle (-0.009066) are too close to zero to have any significant (non-random) affect on the mpg.
-2) The p-value here is 6.712e-11, which is much smaller the the assumed significance level of 0.05%. This means we can reject the null hypothesis, which means that the stlope of our linear model is not zero.
+2) The p-value here is 6.712e-11, which is much smaller the the assumed significance level of 0.05. This means we can reject the null hypothesis, which means that the stlope of our linear model is not zero.
 3) Given that the r-squared value for this linear model is 0.7119, this model predicts MechaCar prototypes pretty effectively, meaning that roughly 71% of the variability of our dependent variable is explained using this linear model. <br/>
 
 ![image](https://user-images.githubusercontent.com/87578449/143689841-082a0970-27b8-4124-bfad-3281898fcda6.png)
@@ -13,3 +13,8 @@ If you take a look at the overall summary and lot-by-lot summary tables below, y
 
 ![image](https://user-images.githubusercontent.com/87578449/143689637-452d5ef1-200f-48ad-b1e2-8134a0495e3c.png) <br/>
 ![image](https://user-images.githubusercontent.com/87578449/143689642-dfc2da64-f3b8-4937-9944-159fa5883539.png) <br/>
+
+## *T-Tests on Suspension Coils*
+When first looking at the t-test for the overall summary, the p-value comes out to exactly 1, which means we cannot reject the null hypothesis, meaning that the means are statisically similar. The same is true when specifically comparing Lot whose p-value also comes out to 1. Lot 2 still has a p-value that is greater than the assumed significance level of 0.05, although it is less than 1 (0.6072 to be exact). Lot 3, however, is a different story altogether. Its p-value is 0.04168, which is less than our significance level, which means we can reject the null hypothesis; the mean for Lot 3 is statistically *different*.
+
+![image](https://user-images.githubusercontent.com/87578449/143690328-ee0e8c6a-e50a-4e6e-860a-ebdd37a2f8ba.png)
